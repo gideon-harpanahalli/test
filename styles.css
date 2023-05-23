@@ -1,0 +1,11 @@
+h1{
+    animation: color-change 1s infinite;
+    size: 100px;
+    font-size: 15rem;
+  }
+  
+  @keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+  }
